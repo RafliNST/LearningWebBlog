@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn English</title>
+    <link rel="icon" type="image/png" href="../resource/img/book-icon.png" />
+    <link rel="stylesheet" href="../resource/css/bootstrap.css">
+    <link rel="import" href="../resource/img/font-awesome/">
+</head>
+
+<body>
+    <div class="container-fluid sticky-top">
+        <div class="row bg-dark">
+            <div class="col-12 bg-dark">
+                <p class="text-center mt-3">
+                    <a href="index.html" class="text-decoration-none lead font-weight-bold text-light">
+                        English Learning's Website
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="bg-dark border-top">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark text-center justify-content-center">
+            <ul class="navbar-nav row w-75">
+                <a href="modul.html" class="nav-link nav-item col text-lowercase" id="modul">
+                    modul
+                </a>
+                <a href="exercise.html" class="nav-link nav-item col text-lowercase active  " id="exercise">
+                    exercise
+                </a>
+                <a href="vocabulary.html" class="nav-link nav-item col text-lowercase" id="vocabulary">
+                    vocabulary
+                </a>
+                <a href="blog.html" class="nav-link nav-item col text-lowercase" id="blog">
+                    blog
+                </a>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container mt-4 shadow-lg p-3 mb-5 rounded">
+        <div class="card bg-light">
+            <div class="card-header bg-dark text-light">
+                <div class="h4 text-center">
+                    Exercise
+                </div>
+            </div>
+            <div class="card-body row" id="quiz-rows"></div>
+
+            <div class="card-footer">
+                <button id="submit-btn" class="btn btn-primary">Submit</button>
+                <button id="restart-btn" class="btn btn-secondary d-none">Restart</button>
+            </div>
+            <div id="score" class="mt-4"></div>
+        </div>
+    </div>
+    <script src="../resource/js/bootstrap.bundle.js"></script>
+    <script src="../resource/js/popper.min.js"></script>
+    <!-- Tambahkan di <head> -->
+    <script>
+        let allQuestions = [];
+        const questionTotal = 12;
+
+        async function loadQuestions() {
+            const res = await fetch('../resource/json/quiz.json'); // Pastikan file ini tersedia
+            const data = await res.json();
+            allQuestions = data;
+            generateQuiz(); // Jalankan quiz setelah soal dimuat
+        }
+
+        function generateQuiz() {
+            const quizContainer = document.getElementById("quiz-rows");
+            const shuffled = allQuestions.sort(() => Math.random() - 0.5).slice(0, questionTotal);
+
+            quizContainer.innerHTML = "";
+
+            shuffled.forEach((q, index) => {
+                const col = document.createElement("div");
+                col.className = "col-md-4 mb-4";
+                col.innerHTML = `
+        <div class="border p-3 h-100">
+        <h6>Question ${index + 1}</h6>
+        <p>${q.question}</p>
+        ${q.options.map((opt, i) => `
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="q${index}" id="q${index}opt${i}" value="${opt}">
+            <label class="form-check-label" for="q${index}opt${i}">${opt}</label>
+          </div>`).join('')}
+        </div>`;
+                quizContainer.appendChild(col);
+            });
+
+            document.getElementById("submit-btn").onclick = () => {
+                let score = 0;
+                shuffled.forEach((q, i) => {
+                    const checked = document.querySelector(`input[name="q${i}"]:checked`);
+                    if (checked && checked.value === q.answer) score++;
+                });
+                document.getElementById("score").innerHTML =
+                    `<div class="alert alert-info">Score: <strong>${score}/${questionTotal}</strong></div>`;
+                document.getElementById("restart-btn").classList.remove("d-none");
+            };
+
+            document.getElementById("restart-btn").onclick = generateQuiz;
+        }
+
+        window.onload = loadQuestions;
+    </script>
+
+</body>
+
+</html>

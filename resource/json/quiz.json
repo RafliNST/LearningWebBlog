@@ -1,0 +1,552 @@
+[
+    {
+        "question": "She ____ to school every day.",
+        "options": [
+            "go",
+            "goes",
+            "went",
+            "will go"
+        ],
+        "answer": "goes",
+        "tense": "simple present"
+    },
+    {
+        "question": "They ____ their homework last night.",
+        "options": [
+            "do",
+            "does",
+            "did",
+            "will do"
+        ],
+        "answer": "did",
+        "tense": "simple past"
+    },
+    {
+        "question": "I ____ be a teacher one day.",
+        "options": [
+            "am",
+            "was",
+            "will",
+            "is"
+        ],
+        "answer": "will",
+        "tense": "simple future"
+    },
+    {
+        "question": "He ____ not like spicy food.",
+        "options": [
+            "do",
+            "does",
+            "did",
+            "will"
+        ],
+        "answer": "does",
+        "tense": "simple present"
+    },
+    {
+        "question": "We ____ to the park yesterday.",
+        "options": [
+            "go",
+            "went",
+            "goes",
+            "will go"
+        ],
+        "answer": "went",
+        "tense": "simple past"
+    },
+    {
+        "question": "She ____ going to travel next month.",
+        "options": [
+            "is",
+            "was",
+            "are",
+            "be"
+        ],
+        "answer": "is",
+        "tense": "simple future"
+    },
+    {
+        "question": "They always ____ coffee in the morning.",
+        "options": [
+            "drink",
+            "drinks",
+            "drank",
+            "will drink"
+        ],
+        "answer": "drink",
+        "tense": "simple present"
+    },
+    {
+        "question": "I ____ sick last weekend.",
+        "options": [
+            "am",
+            "was",
+            "were",
+            "will be"
+        ],
+        "answer": "was",
+        "tense": "simple past"
+    },
+    {
+        "question": "We ____ going to start soon.",
+        "options": [
+            "are",
+            "is",
+            "was",
+            "will"
+        ],
+        "answer": "are",
+        "tense": "simple future"
+    },
+    {
+        "question": "He usually ____ his bike to school.",
+        "options": [
+            "rides",
+            "ride",
+            "rode",
+            "will ride"
+        ],
+        "answer": "rides",
+        "tense": "simple present"
+    },
+    {
+        "question": "They ____ lunch at noon every day.",
+        "options": [
+            "have",
+            "has",
+            "had",
+            "will have"
+        ],
+        "answer": "have",
+        "tense": "simple present"
+    },
+    {
+        "question": "I ____ to the cinema last weekend.",
+        "options": [
+            "go",
+            "went",
+            "goes",
+            "will go"
+        ],
+        "answer": "went",
+        "tense": "simple past"
+    },
+    {
+        "question": "He ____ be there on time tomorrow.",
+        "options": [
+            "will",
+            "was",
+            "is",
+            "am"
+        ],
+        "answer": "will",
+        "tense": "simple future"
+    },
+    {
+        "question": "My brother ____ tennis every Sunday.",
+        "options": [
+            "play",
+            "plays",
+            "played",
+            "will play"
+        ],
+        "answer": "plays",
+        "tense": "simple present"
+    },
+    {
+        "question": "We ____ to music last night.",
+        "options": [
+            "listen",
+            "listened",
+            "listens",
+            "will listen"
+        ],
+        "answer": "listened",
+        "tense": "simple past"
+    },
+    {
+        "question": "I ____ going to start a new job.",
+        "options": [
+            "am",
+            "was",
+            "is",
+            "be"
+        ],
+        "answer": "am",
+        "tense": "simple future"
+    },
+    {
+        "question": "She often ____ the dishes.",
+        "options": [
+            "washes",
+            "wash",
+            "washed",
+            "will wash"
+        ],
+        "answer": "washes",
+        "tense": "simple present"
+    },
+    {
+        "question": "They ____ a party last Friday.",
+        "options": [
+            "have",
+            "had",
+            "has",
+            "will have"
+        ],
+        "answer": "had",
+        "tense": "simple past"
+    },
+    {
+        "question": "He ____ going to call you later.",
+        "options": [
+            "is",
+            "was",
+            "are",
+            "will"
+        ],
+        "answer": "is",
+        "tense": "simple future"
+    },
+    {
+        "question": "The dog always ____ loudly.",
+        "options": [
+            "barks",
+            "bark",
+            "barked",
+            "will bark"
+        ],
+        "answer": "barks",
+        "tense": "simple present"
+    },
+    {
+        "question": "They ____ a lot of fun at the beach.",
+        "options": [
+            "had",
+            "has",
+            "have",
+            "will have"
+        ],
+        "answer": "had",
+        "tense": "simple past"
+    },
+    {
+        "question": "We ____ going to clean the house.",
+        "options": [
+            "are",
+            "is",
+            "was",
+            "were"
+        ],
+        "answer": "are",
+        "tense": "simple future"
+    },
+    {
+        "question": "He usually ____ his homework before dinner.",
+        "options": [
+            "does",
+            "do",
+            "did",
+            "will do"
+        ],
+        "answer": "does",
+        "tense": "simple present"
+    },
+    {
+        "question": "I ____ very tired yesterday.",
+        "options": [
+            "was",
+            "am",
+            "is",
+            "will be"
+        ],
+        "answer": "was",
+        "tense": "simple past"
+    },
+    {
+        "question": "She ____ going to visit her aunt.",
+        "options": [
+            "is",
+            "was",
+            "are",
+            "will"
+        ],
+        "answer": "is",
+        "tense": "simple future"
+    },
+    {
+        "question": "You ____ your room every Saturday.",
+        "options": [
+            "clean",
+            "cleans",
+            "cleaned",
+            "will clean"
+        ],
+        "answer": "clean",
+        "tense": "simple present"
+    },
+    {
+        "question": "The baby ____ all night.",
+        "options": [
+            "cries",
+            "cried",
+            "cry",
+            "will cry"
+        ],
+        "answer": "cried",
+        "tense": "simple past"
+    },
+    {
+        "question": "I ____ going to study abroad.",
+        "options": [
+            "am",
+            "is",
+            "was",
+            "be"
+        ],
+        "answer": "am",
+        "tense": "simple future"
+    },
+    {
+        "question": "My mom always ____ breakfast at 7 a.m.",
+        "options": [
+            "makes",
+            "make",
+            "made",
+            "will make"
+        ],
+        "answer": "makes",
+        "tense": "simple present"
+    },
+    {
+        "question": "We ____ a movie last night.",
+        "options": [
+            "watched",
+            "watch",
+            "watches",
+            "will watch"
+        ],
+        "answer": "watched",
+        "tense": "simple past"
+    },
+    {
+        "question": "He ____ going to buy a new phone.",
+        "options": [
+            "is",
+            "are",
+            "was",
+            "will"
+        ],
+        "answer": "is",
+        "tense": "simple future"
+    },
+    {
+        "question": "The train ____ at 9 o'clock.",
+        "options": [
+            "leaves",
+            "leave",
+            "left",
+            "will leave"
+        ],
+        "answer": "leaves",
+        "tense": "simple present"
+    },
+    {
+        "question": "I ____ a new car last month.",
+        "options": [
+            "buy",
+            "bought",
+            "buys",
+            "will buy"
+        ],
+        "answer": "bought",
+        "tense": "simple past"
+    },
+    {
+        "question": "They ____ going to start a business.",
+        "options": [
+            "are",
+            "is",
+            "was",
+            "will"
+        ],
+        "answer": "are",
+        "tense": "simple future"
+    },
+    {
+        "question": "He always ____ to music before bed.",
+        "options": [
+            "listens",
+            "listen",
+            "listened",
+            "will listen"
+        ],
+        "answer": "listens",
+        "tense": "simple present"
+    },
+    {
+        "question": "We ____ in Spain two years ago.",
+        "options": [
+            "lived",
+            "live",
+            "lives",
+            "will live"
+        ],
+        "answer": "lived",
+        "tense": "simple past"
+    },
+    {
+        "question": "I ____ going to eat dinner soon.",
+        "options": [
+            "am",
+            "is",
+            "was",
+            "will"
+        ],
+        "answer": "am",
+        "tense": "simple future"
+    },
+    {
+        "question": "She ____ her bike every day.",
+        "options": [
+            "rides",
+            "ride",
+            "rode",
+            "will ride"
+        ],
+        "answer": "rides",
+        "tense": "simple present"
+    },
+    {
+        "question": "They ____ to Canada last year.",
+        "options": [
+            "traveled",
+            "travel",
+            "travels",
+            "will travel"
+        ],
+        "answer": "traveled",
+        "tense": "simple past"
+    },
+    {
+        "question": "He ____ going to fix the car.",
+        "options": [
+            "is",
+            "was",
+            "are",
+            "be"
+        ],
+        "answer": "is",
+        "tense": "simple future"
+    },
+    {
+        "question": "We ____ in a big house.",
+        "options": [
+            "live",
+            "lives",
+            "lived",
+            "will live"
+        ],
+        "answer": "live",
+        "tense": "simple present"
+    },
+    {
+        "question": "She ____ her keys yesterday.",
+        "options": [
+            "lost",
+            "lose",
+            "loses",
+            "will lose"
+        ],
+        "answer": "lost",
+        "tense": "simple past"
+    },
+    {
+        "question": "I ____ going to meet them soon.",
+        "options": [
+            "am",
+            "is",
+            "was",
+            "were"
+        ],
+        "answer": "am",
+        "tense": "simple future"
+    },
+    {
+        "question": "He ____ fast every morning.",
+        "options": [
+            "runs",
+            "run",
+            "ran",
+            "will run"
+        ],
+        "answer": "runs",
+        "tense": "simple present"
+    },
+    {
+        "question": "We ____ dinner at a restaurant last night.",
+        "options": [
+            "ate",
+            "eat",
+            "eats",
+            "will eat"
+        ],
+        "answer": "ate",
+        "tense": "simple past"
+    },
+    {
+        "question": "She ____ going to attend the meeting.",
+        "options": [
+            "is",
+            "are",
+            "was",
+            "were"
+        ],
+        "answer": "is",
+        "tense": "simple future"
+    },
+    {
+        "question": "The sun ____ in the east.",
+        "options": [
+            "rises",
+            "rise",
+            "rose",
+            "will rise"
+        ],
+        "answer": "rises",
+        "tense": "simple present"
+    },
+    {
+        "question": "He ____ his phone at school yesterday.",
+        "options": [
+            "forgot",
+            "forget",
+            "forgets",
+            "will forget"
+        ],
+        "answer": "forgot",
+        "tense": "simple past"
+    },
+    {
+        "question": "We ____ going to read a new book.",
+        "options": [
+            "are",
+            "is",
+            "was",
+            "will"
+        ],
+        "answer": "are",
+        "tense": "simple future"
+    },
+    {
+        "question": "They ____ breakfast at 8 a.m.",
+        "options": [
+            "eat",
+            "eats",
+            "ate",
+            "will eat"
+        ],
+        "answer": "eat",
+        "tense": "simple present"
+    }
+]
