@@ -1,90 +1,277 @@
 [
     {
-        "question": "Apa itu ukuran pemusatan?",
+        "question": "Apa itu Ukuran Pemusatan?",
         "options": [
-            "Statistik yang digunakan untuk menemukan penyebaran data.",
-            "Visualisasi yang menampilkan data dalam bentuk diagram batang.",
+            "Statistik yang mengukur penyebaran data.",
+            "Visualisasi data untuk menampilkan frekuensi.",
             "Statistik yang digunakan untuk menemukan titik tengah atau pusat dari sebuah kumpulan data.",
-            "Rumus untuk menghitung rata-rata dari sebuah data set."
+            "Metode untuk mengidentifikasi nilai-nilai ekstrem dalam data."
         ],
         "answer": "Statistik yang digunakan untuk menemukan titik tengah atau pusat dari sebuah kumpulan data.",
-        "referensi": "Makalah 'Ukuran Pemusatan', bagian 'Pembahasan'."
+        "referensi": "Pembahasan, Ukuran pemusatan"
     },
     {
-        "question": "Menurut makalah, mana di antara berikut yang merupakan ukuran pemusatan dasar?",
+        "question": "Apa yang dimaksud dengan 'Mean'?",
         "options": [
-            "Mean, Median, Modus",
-            "Boxplot, Histogram, Modus",
-            "Weighted Mean, Geometric Mean, Harmonic Mean",
-            "Kuartil, Minimum, Maksimum"
+            "Nilai yang paling sering muncul dalam data.",
+            "Nilai tengah dari data yang telah diurutkan.",
+            "Jumlah dari semua nilai dalam data set dibagi dengan jumlah total nilai.",
+            "Nilai ekstrem yang berada di luar rentang normal."
         ],
-        "answer": "Mean, Median, Modus",
-        "referensi": "Makalah 'Ukuran Pemusatan', bagian 'Latar Belakang'."
+        "answer": "Jumlah dari semua nilai dalam data set dibagi dengan jumlah total nilai.",
+        "referensi": "Pembahasan, Mean (Rata-rata)"
     },
     {
-        "question": "Mengapa median lebih kuat terhadap pengaruh outlier dibandingkan mean?",
+        "question": "Menurut makalah, mengapa 'Mean' sensitif terhadap nilai ekstrem (outlier)?",
         "options": [
-            "Karena median adalah jumlah semua nilai dibagi dengan jumlah total nilai.",
-            "Karena median adalah nilai yang paling sering muncul.",
-            "Karena median adalah nilai yang berada tepat di tengah dari sebuah data set yang telah diurutkan.",
-            "Karena median memiliki bobot atau kepentingan yang berbeda."
+            "Karena 'Mean' hanya menghitung nilai yang paling sering muncul.",
+            "Karena 'Mean' berada di tengah data yang diurutkan.",
+            "Karena nilai ekstrem dapat secara signifikan menarik rata-rata ke atas atau ke bawah.",
+            "Karena 'Mean' tidak relevan dalam analisis data TRPL."
         ],
-        "answer": "Karena median adalah nilai yang berada tepat di tengah dari sebuah data set yang telah diurutkan.",
-        "referensi": "Makalah 'Ukuran Pemusatan', bagian 'Median (Nilai Tengah)'."
+        "answer": "Karena nilai ekstrem dapat secara signifikan menarik rata-rata ke atas atau ke bawah.",
+        "referensi": "Pembahasan, Mean (Rata-rata)"
     },
     {
-        "question": "Dalam contoh yang diberikan di makalah, jika log error menunjukkan 'ServerError' 25 kali, 'Timeout' 15 kali, dan 'Unauthorized' 8 kali, apa modus dari data tersebut?",
+        "question": "Dalam contoh makalah, jika waktu respons API adalah [100, 110, 95, 120, 500] ms, berapa rata-rata responsnya?",
         "options": [
-            "Unauthorized",
-            "Timeout",
-            "ServerError",
-            "Tidak dapat ditentukan"
+            "110 ms",
+            "185 ms",
+            "120 ms",
+            "500 ms"
         ],
-        "answer": "ServerError",
-        "referensi": "Makalah 'Ukuran Pemusatan', bagian 'Modus (Nilai yang Sering Muncul)'."
+        "answer": "185 ms",
+        "referensi": "Pembahasan, Mean (Rata-rata)"
     },
     {
-        "question": "Jenis rata-rata apa yang disarankan dalam makalah untuk menganalisis prioritas bug berdasarkan tingkat keparahan dan frekuensi?",
+        "question": "Apa yang dimaksud dengan 'Median'?",
         "options": [
-            "Harmonic Mean",
+            "Nilai yang paling sering muncul.",
+            "Rata-rata dari semua nilai.",
+            "Nilai ekstrem yang terdeteksi.",
+            "Nilai yang berada tepat di tengah dari sebuah data set yang telah diurutkan."
+        ],
+        "answer": "Nilai yang berada tepat di tengah dari sebuah data set yang telah diurutkan.",
+        "referensi": "Pembahasan, Median (Nilai Tengah)"
+    },
+    {
+        "question": "Mengapa 'Median' lebih direkomendasikan daripada 'Mean' untuk mengukur waktu respons API yang mungkin memiliki lonjakan yang tidak biasa?",
+        "options": [
+            "Karena 'Median' lebih cepat dihitung.",
+            "Karena 'Median' memberikan gambaran yang lebih stabil dan tidak terlalu dipengaruhi outlier.",
+            "Karena 'Median' hanya digunakan untuk data numerik.",
+            "Karena 'Median' menunjukkan frekuensi kemunculan."
+        ],
+        "answer": "Karena 'Median' memberikan gambaran yang lebih stabil dan tidak terlalu dipengaruhi outlier.",
+        "referensi": "Pembahasan, Median (Nilai Tengah)"
+    },
+    {
+        "question": "Apa yang dimaksud dengan 'Modus'?",
+        "options": [
+            "Nilai tengah dari data.",
+            "Rata-rata dari data.",
+            "Nilai yang paling sering muncul dalam sebuah data set.",
+            "Nilai terkecil dalam data."
+        ],
+        "answer": "Nilai yang paling sering muncul dalam sebuah data set.",
+        "referensi": "Pembahasan, Modus (Nilai yang Sering Muncul)"
+    },
+    {
+        "question": "Dalam aplikasi TRPL, apa kegunaan 'Modus' pada log error?",
+        "options": [
+            "Menghitung rata-rata waktu respons.",
+            "Menentukan prioritas bug.",
+            "Mengidentifikasi masalah atau jenis error yang paling sering terjadi.",
+            "Memvisualisasikan distribusi data."
+        ],
+        "answer": "Mengidentifikasi masalah atau jenis error yang paling sering terjadi.",
+        "referensi": "Aplikasi dalam TRPL, Analisis Error Paling Sering Muncul"
+    },
+    {
+        "question": "Jenis mean apa yang digunakan ketika setiap nilai data memiliki bobot atau kepentingan yang berbeda, seperti dalam analisis prioritas bug?",
+        "options": [
             "Geometric Mean",
-            "Mean",
-            "Weighted Mean"
+            "Harmonic Mean",
+            "Weighted Mean",
+            "Simple Mean"
         ],
         "answer": "Weighted Mean",
-        "referensi": "Makalah 'Ukuran Pemusatan', bagian 'Weighted Mean (Rata-rata Tertimbang)'."
+        "referensi": "Pembahasan, Weighted Mean (Rata-rata Tertimbang)"
     },
     {
-        "question": "Apa kegunaan utama dari boxplot dalam Rekayasa Perangkat Lunak Terapan (TRPL)?",
+        "question": "Rata-rata jenis apa yang paling cocok untuk data yang berhubungan dengan tingkat pertumbuhan, seperti pertumbuhan traffic website?",
         "options": [
-            "Untuk menghitung rata-rata waktu respons API.",
-            "Untuk menunjukkan frekuensi kemunculan data dalam interval tertentu.",
-            "Untuk memberikan ringkasan lima angka penting dan mendeteksi outlier.",
-            "Untuk menghitung rata-rata pertumbuhan traffic harian."
+            "Weighted Mean",
+            "Geometric Mean",
+            "Harmonic Mean",
+            "Arithmetic Mean"
         ],
-        "answer": "Untuk memberikan ringkasan lima angka penting dan mendeteksi outlier.",
-        "referensi": "Makalah 'Ukuran Pemusatan', bagian 'Boxplot dan five number summary' dan 'Analisis Outlier'."
+        "answer": "Geometric Mean",
+        "referensi": "Pembahasan, Geometric Mean (Rata-rata Geometrik)"
     },
     {
-        "question": "Menurut makalah, apa yang termasuk dalam 'five-number summary'?",
+        "question": "Untuk data yang berhubungan dengan laju atau tingkat, seperti kecepatan download, jenis rata-rata apa yang paling cocok?",
         "options": [
-            "Mean, Median, Modus, Kuartil Pertama, Kuartil Ketiga",
-            "Minimum, Maksimum, Median, Modus, Range",
+            "Arithmetic Mean",
+            "Geometric Mean",
+            "Harmonic Mean",
+            "Weighted Mean"
+        ],
+        "answer": "Harmonic Mean",
+        "referensi": "Pembahasan, Harmonic Mean (Rata-rata Harmonik)"
+    },
+    {
+        "question": "Visualisasi data apa yang efektif untuk menampilkan 'five-number summary' dan outlier?",
+        "options": [
+            "Histogram",
+            "Diagram Garis",
+            "Diagram Batang",
+            "Boxplot"
+        ],
+        "answer": "Boxplot",
+        "referensi": "Pembahasan, Boxplot dan five number summary"
+    },
+    {
+        "question": "Apa saja lima angka penting (five-number summary) yang ditampilkan oleh boxplot?",
+        "options": [
+            "Mean, Median, Modus, Q1, Q3",
+            "Minimum, Maksimum, Median, IQR, Outlier",
             "Minimum, Kuartil Pertama (Q1), Median, Kuartil Ketiga (Q3), Maksimum",
-            "Range, Outlier, Median, Q1, Q3"
+            "Rata-rata, Nilai Tengah, Nilai Terkecil, Nilai Terbesar, Frekuensi"
         ],
         "answer": "Minimum, Kuartil Pertama (Q1), Median, Kuartil Ketiga (Q3), Maksimum",
-        "referensi": "Makalah 'Ukuran Pemusatan', bagian 'Boxplot dan five number summary'."
+        "referensi": "Pembahasan, Boxplot dan five number summary"
     },
     {
-        "question": "Dalam konteks TRPL, apa yang dapat disimpulkan jika menggunakan modus pada log error?",
+        "question": "Secara matematis, apa yang mendefinisikan sebuah nilai sebagai outlier dalam boxplot?",
         "options": [
-            "Rata-rata waktu respons sistem.",
-            "Masalah dengan frekuensi kemunculan tertinggi.",
-            "Distribusi performa sistem.",
-            "Nilai ekstrem atau anomali pada log sistem."
+            "Lebih besar dari Q3.",
+            "Lebih kecil dari Q1.",
+            "Lebih kecil dari Q1 - 1.5 × IQR atau lebih besar dari Q3 + 1.5 × IQR.",
+            "Nilai yang berada di luar rentang minimum dan maksimum."
         ],
-        "answer": "Masalah dengan frekuensi kemunculan tertinggi.",
-        "referensi": "Makalah 'Ukuran Pemusatan', bagian 'Modus (Nilai yang Sering Muncul)' dan 'Aplikasi dalam TRPL'."
+        "answer": "Lebih kecil dari Q1 - 1.5 × IQR atau lebih besar dari Q3 + 1.5 × IQR.",
+        "referensi": "Pembahasan, Analisis Outlier"
+    },
+    {
+        "question": "Apa fungsi 'Histogram' dalam analisis data TRPL?",
+        "options": [
+            "Untuk menunjukkan hubungan antara dua variabel.",
+            "Untuk meringkas lima angka penting.",
+            "Untuk menunjukkan frekuensi kemunculan data dalam interval tertentu.",
+            "Untuk membandingkan performa antar API."
+        ],
+        "answer": "Untuk menunjukkan frekuensi kemunculan data dalam interval tertentu.",
+        "referensi": "Pembahasan, Visualisasi dan Interpretasi Data"
+    },
+    {
+        "question": "Menurut makalah, ilmu statistika, khususnya ukuran pemusatan, menyediakan kerangka kerja fundamental untuk:",
+        "options": [
+            "Menghasilkan kode program yang efisien.",
+            "Meringkas dan menginterpretasi kumpulan data yang besar.",
+            "Mendesain antarmuka pengguna yang intuitif.",
+            "Mengembangkan algoritma machine learning yang kompleks."
+        ],
+        "answer": "Meringkas dan menginterpretasi kumpulan data yang besar.",
+        "referensi": "Pendahuluan, Latar Belakang"
+    },
+    {
+        "question": "Apa yang dimaksud dengan 'outlier'?",
+        "options": [
+            "Nilai yang paling sering muncul.",
+            "Nilai yang secara signifikan berbeda dari nilai-nilai lain dalam data set.",
+            "Nilai tengah dari data.",
+            "Rata-rata tertimbang dari data."
+        ],
+        "answer": "Nilai yang secara signifikan berbeda dari nilai-nilai lain dalam data set.",
+        "referensi": "Pembahasan, Analisis Outlier"
+    },
+    {
+        "question": "Dalam konteks TRPL, analisis outlier dapat menjadi sinyal penting tentang apa?",
+        "options": [
+            "Pertumbuhan traffic website.",
+            "Anomali atau masalah pada sistem.",
+            "Rata-rata waktu respons API.",
+            "Prioritas bug yang paling rendah."
+        ],
+        "answer": "Anomali atau masalah pada sistem.",
+        "referensi": "Pembahasan, Analisis Outlier"
+    },
+    {
+        "question": "Apa peran Boxplot dalam analisis performa sistem di TRPL?",
+        "options": [
+            "Memberikan ringkasan yang cepat dan ringkas tentang titik pusat, penyebaran, dan keberadaan outlier.",
+            "Hanya digunakan untuk menghitung rata-rata.",
+            "Menunjukkan nilai yang paling sering muncul.",
+            "Membantu membuat sistem skoring bug."
+        ],
+        "answer": "Memberikan ringkasan yang cepat dan ringkas tentang titik pusat, penyebaran, dan keberadaan outlier.",
+        "referensi": "Pembahasan, Visualisasi dan Interpretasi Data"
+    },
+    {
+        "question": "Apa yang bisa diidentifikasi dengan menggunakan modus dari log error?",
+        "options": [
+            "Waktu respons rata-rata.",
+            "Masalah yang paling sering terjadi.",
+            "Nilai ekstrem dalam sistem.",
+            "Tingkat pertumbuhan pengguna."
+        ],
+        "answer": "Masalah yang paling sering terjadi.",
+        "referensi": "Aplikasi dalam TRPL, Analisis Error Paling Sering Muncul"
+    },
+    {
+        "question": "Makalah ini disusun untuk memenuhi tugas mata kuliah apa?",
+        "options": [
+            "Rekayasa Perangkat Lunak Terapan (TRPL)",
+            "Statistika",
+            "Jaringan Komputer",
+            "Algoritma dan Struktur Data"
+        ],
+        "answer": "Statistika",
+        "referensi": "Kata Pengantar"
+    },
+    {
+        "question": "Apa yang menjadi salah satu tujuan utama dari makalah ini?",
+        "options": [
+            "Untuk merancang sebuah aplikasi baru.",
+            "Untuk mengupas tuntas berbagai konsep ukuran pemusatan.",
+            "Untuk membandingkan bahasa pemrograman yang berbeda.",
+            "Untuk menjelaskan cara membuat website."
+        ],
+        "answer": "Untuk mengupas tuntas berbagai konsep ukuran pemusatan.",
+        "referensi": "Kata Pengantar"
+    },
+    {
+        "question": "Makalah ini membahas bagaimana konsep-konsep ukuran pemusatan memiliki aplikasi praktis yang krusial dalam dunia apa?",
+        "options": [
+            "Ekonomi dan Keuangan",
+            "Seni dan Desain",
+            "Sastra dan Bahasa",
+            "Rekayasa Perangkat Lunak"
+        ],
+        "answer": "Rekayasa Perangkat Lunak",
+        "referensi": "Kata Pengantar"
+    },
+    {
+        "question": "Dalam bagian Rumusan Masalah, salah satu pertanyaan yang akan dianalisis adalah bagaimana visualisasi data seperti histogram dan boxplot dapat diinterpretasikan untuk analisis apa?",
+        "options": [
+            "Distribusi pertumbuhan traffic.",
+            "Distribusi runtime sistem.",
+            "Distribusi bug.",
+            "Distribusi bobot prioritas."
+        ],
+        "answer": "Distribusi runtime sistem.",
+        "referensi": "Pendahuluan, Rumusan Masalah"
+    },
+    {
+        "question": "Dalam contoh waktu respons API [100, 110, 95, 120, 500] ms, berapa mediannya setelah data diurutkan?",
+        "options": [
+            "95 ms",
+            "100 ms",
+            "110 ms",
+            "120 ms"
+        ],
+        "answer": "110 ms",
+        "referensi": "Pembahasan, Median (Nilai Tengah)"
     }
 ]
