@@ -1,552 +1,90 @@
 [
     {
-        "question": "She ____ to school every day.",
+        "question": "Apa itu ukuran pemusatan?",
         "options": [
-            "go",
-            "goes",
-            "went",
-            "will go"
+            "Statistik yang digunakan untuk menemukan penyebaran data.",
+            "Visualisasi yang menampilkan data dalam bentuk diagram batang.",
+            "Statistik yang digunakan untuk menemukan titik tengah atau pusat dari sebuah kumpulan data.",
+            "Rumus untuk menghitung rata-rata dari sebuah data set."
         ],
-        "answer": "goes",
-        "tense": "simple present"
+        "answer": "Statistik yang digunakan untuk menemukan titik tengah atau pusat dari sebuah kumpulan data.",
+        "referensi": "Makalah 'Ukuran Pemusatan', bagian 'Pembahasan'."
     },
     {
-        "question": "They ____ their homework last night.",
+        "question": "Menurut makalah, mana di antara berikut yang merupakan ukuran pemusatan dasar?",
         "options": [
-            "do",
-            "does",
-            "did",
-            "will do"
+            "Mean, Median, Modus",
+            "Boxplot, Histogram, Modus",
+            "Weighted Mean, Geometric Mean, Harmonic Mean",
+            "Kuartil, Minimum, Maksimum"
         ],
-        "answer": "did",
-        "tense": "simple past"
+        "answer": "Mean, Median, Modus",
+        "referensi": "Makalah 'Ukuran Pemusatan', bagian 'Latar Belakang'."
     },
     {
-        "question": "I ____ be a teacher one day.",
+        "question": "Mengapa median lebih kuat terhadap pengaruh outlier dibandingkan mean?",
         "options": [
-            "am",
-            "was",
-            "will",
-            "is"
+            "Karena median adalah jumlah semua nilai dibagi dengan jumlah total nilai.",
+            "Karena median adalah nilai yang paling sering muncul.",
+            "Karena median adalah nilai yang berada tepat di tengah dari sebuah data set yang telah diurutkan.",
+            "Karena median memiliki bobot atau kepentingan yang berbeda."
         ],
-        "answer": "will",
-        "tense": "simple future"
+        "answer": "Karena median adalah nilai yang berada tepat di tengah dari sebuah data set yang telah diurutkan.",
+        "referensi": "Makalah 'Ukuran Pemusatan', bagian 'Median (Nilai Tengah)'."
     },
     {
-        "question": "He ____ not like spicy food.",
+        "question": "Dalam contoh yang diberikan di makalah, jika log error menunjukkan 'ServerError' 25 kali, 'Timeout' 15 kali, dan 'Unauthorized' 8 kali, apa modus dari data tersebut?",
         "options": [
-            "do",
-            "does",
-            "did",
-            "will"
+            "Unauthorized",
+            "Timeout",
+            "ServerError",
+            "Tidak dapat ditentukan"
         ],
-        "answer": "does",
-        "tense": "simple present"
+        "answer": "ServerError",
+        "referensi": "Makalah 'Ukuran Pemusatan', bagian 'Modus (Nilai yang Sering Muncul)'."
     },
     {
-        "question": "We ____ to the park yesterday.",
+        "question": "Jenis rata-rata apa yang disarankan dalam makalah untuk menganalisis prioritas bug berdasarkan tingkat keparahan dan frekuensi?",
         "options": [
-            "go",
-            "went",
-            "goes",
-            "will go"
+            "Harmonic Mean",
+            "Geometric Mean",
+            "Mean",
+            "Weighted Mean"
         ],
-        "answer": "went",
-        "tense": "simple past"
+        "answer": "Weighted Mean",
+        "referensi": "Makalah 'Ukuran Pemusatan', bagian 'Weighted Mean (Rata-rata Tertimbang)'."
     },
     {
-        "question": "She ____ going to travel next month.",
+        "question": "Apa kegunaan utama dari boxplot dalam Rekayasa Perangkat Lunak Terapan (TRPL)?",
         "options": [
-            "is",
-            "was",
-            "are",
-            "be"
+            "Untuk menghitung rata-rata waktu respons API.",
+            "Untuk menunjukkan frekuensi kemunculan data dalam interval tertentu.",
+            "Untuk memberikan ringkasan lima angka penting dan mendeteksi outlier.",
+            "Untuk menghitung rata-rata pertumbuhan traffic harian."
         ],
-        "answer": "is",
-        "tense": "simple future"
+        "answer": "Untuk memberikan ringkasan lima angka penting dan mendeteksi outlier.",
+        "referensi": "Makalah 'Ukuran Pemusatan', bagian 'Boxplot dan five number summary' dan 'Analisis Outlier'."
     },
     {
-        "question": "They always ____ coffee in the morning.",
+        "question": "Menurut makalah, apa yang termasuk dalam 'five-number summary'?",
         "options": [
-            "drink",
-            "drinks",
-            "drank",
-            "will drink"
+            "Mean, Median, Modus, Kuartil Pertama, Kuartil Ketiga",
+            "Minimum, Maksimum, Median, Modus, Range",
+            "Minimum, Kuartil Pertama (Q1), Median, Kuartil Ketiga (Q3), Maksimum",
+            "Range, Outlier, Median, Q1, Q3"
         ],
-        "answer": "drink",
-        "tense": "simple present"
+        "answer": "Minimum, Kuartil Pertama (Q1), Median, Kuartil Ketiga (Q3), Maksimum",
+        "referensi": "Makalah 'Ukuran Pemusatan', bagian 'Boxplot dan five number summary'."
     },
     {
-        "question": "I ____ sick last weekend.",
+        "question": "Dalam konteks TRPL, apa yang dapat disimpulkan jika menggunakan modus pada log error?",
         "options": [
-            "am",
-            "was",
-            "were",
-            "will be"
+            "Rata-rata waktu respons sistem.",
+            "Masalah dengan frekuensi kemunculan tertinggi.",
+            "Distribusi performa sistem.",
+            "Nilai ekstrem atau anomali pada log sistem."
         ],
-        "answer": "was",
-        "tense": "simple past"
-    },
-    {
-        "question": "We ____ going to start soon.",
-        "options": [
-            "are",
-            "is",
-            "was",
-            "will"
-        ],
-        "answer": "are",
-        "tense": "simple future"
-    },
-    {
-        "question": "He usually ____ his bike to school.",
-        "options": [
-            "rides",
-            "ride",
-            "rode",
-            "will ride"
-        ],
-        "answer": "rides",
-        "tense": "simple present"
-    },
-    {
-        "question": "They ____ lunch at noon every day.",
-        "options": [
-            "have",
-            "has",
-            "had",
-            "will have"
-        ],
-        "answer": "have",
-        "tense": "simple present"
-    },
-    {
-        "question": "I ____ to the cinema last weekend.",
-        "options": [
-            "go",
-            "went",
-            "goes",
-            "will go"
-        ],
-        "answer": "went",
-        "tense": "simple past"
-    },
-    {
-        "question": "He ____ be there on time tomorrow.",
-        "options": [
-            "will",
-            "was",
-            "is",
-            "am"
-        ],
-        "answer": "will",
-        "tense": "simple future"
-    },
-    {
-        "question": "My brother ____ tennis every Sunday.",
-        "options": [
-            "play",
-            "plays",
-            "played",
-            "will play"
-        ],
-        "answer": "plays",
-        "tense": "simple present"
-    },
-    {
-        "question": "We ____ to music last night.",
-        "options": [
-            "listen",
-            "listened",
-            "listens",
-            "will listen"
-        ],
-        "answer": "listened",
-        "tense": "simple past"
-    },
-    {
-        "question": "I ____ going to start a new job.",
-        "options": [
-            "am",
-            "was",
-            "is",
-            "be"
-        ],
-        "answer": "am",
-        "tense": "simple future"
-    },
-    {
-        "question": "She often ____ the dishes.",
-        "options": [
-            "washes",
-            "wash",
-            "washed",
-            "will wash"
-        ],
-        "answer": "washes",
-        "tense": "simple present"
-    },
-    {
-        "question": "They ____ a party last Friday.",
-        "options": [
-            "have",
-            "had",
-            "has",
-            "will have"
-        ],
-        "answer": "had",
-        "tense": "simple past"
-    },
-    {
-        "question": "He ____ going to call you later.",
-        "options": [
-            "is",
-            "was",
-            "are",
-            "will"
-        ],
-        "answer": "is",
-        "tense": "simple future"
-    },
-    {
-        "question": "The dog always ____ loudly.",
-        "options": [
-            "barks",
-            "bark",
-            "barked",
-            "will bark"
-        ],
-        "answer": "barks",
-        "tense": "simple present"
-    },
-    {
-        "question": "They ____ a lot of fun at the beach.",
-        "options": [
-            "had",
-            "has",
-            "have",
-            "will have"
-        ],
-        "answer": "had",
-        "tense": "simple past"
-    },
-    {
-        "question": "We ____ going to clean the house.",
-        "options": [
-            "are",
-            "is",
-            "was",
-            "were"
-        ],
-        "answer": "are",
-        "tense": "simple future"
-    },
-    {
-        "question": "He usually ____ his homework before dinner.",
-        "options": [
-            "does",
-            "do",
-            "did",
-            "will do"
-        ],
-        "answer": "does",
-        "tense": "simple present"
-    },
-    {
-        "question": "I ____ very tired yesterday.",
-        "options": [
-            "was",
-            "am",
-            "is",
-            "will be"
-        ],
-        "answer": "was",
-        "tense": "simple past"
-    },
-    {
-        "question": "She ____ going to visit her aunt.",
-        "options": [
-            "is",
-            "was",
-            "are",
-            "will"
-        ],
-        "answer": "is",
-        "tense": "simple future"
-    },
-    {
-        "question": "You ____ your room every Saturday.",
-        "options": [
-            "clean",
-            "cleans",
-            "cleaned",
-            "will clean"
-        ],
-        "answer": "clean",
-        "tense": "simple present"
-    },
-    {
-        "question": "The baby ____ all night.",
-        "options": [
-            "cries",
-            "cried",
-            "cry",
-            "will cry"
-        ],
-        "answer": "cried",
-        "tense": "simple past"
-    },
-    {
-        "question": "I ____ going to study abroad.",
-        "options": [
-            "am",
-            "is",
-            "was",
-            "be"
-        ],
-        "answer": "am",
-        "tense": "simple future"
-    },
-    {
-        "question": "My mom always ____ breakfast at 7 a.m.",
-        "options": [
-            "makes",
-            "make",
-            "made",
-            "will make"
-        ],
-        "answer": "makes",
-        "tense": "simple present"
-    },
-    {
-        "question": "We ____ a movie last night.",
-        "options": [
-            "watched",
-            "watch",
-            "watches",
-            "will watch"
-        ],
-        "answer": "watched",
-        "tense": "simple past"
-    },
-    {
-        "question": "He ____ going to buy a new phone.",
-        "options": [
-            "is",
-            "are",
-            "was",
-            "will"
-        ],
-        "answer": "is",
-        "tense": "simple future"
-    },
-    {
-        "question": "The train ____ at 9 o'clock.",
-        "options": [
-            "leaves",
-            "leave",
-            "left",
-            "will leave"
-        ],
-        "answer": "leaves",
-        "tense": "simple present"
-    },
-    {
-        "question": "I ____ a new car last month.",
-        "options": [
-            "buy",
-            "bought",
-            "buys",
-            "will buy"
-        ],
-        "answer": "bought",
-        "tense": "simple past"
-    },
-    {
-        "question": "They ____ going to start a business.",
-        "options": [
-            "are",
-            "is",
-            "was",
-            "will"
-        ],
-        "answer": "are",
-        "tense": "simple future"
-    },
-    {
-        "question": "He always ____ to music before bed.",
-        "options": [
-            "listens",
-            "listen",
-            "listened",
-            "will listen"
-        ],
-        "answer": "listens",
-        "tense": "simple present"
-    },
-    {
-        "question": "We ____ in Spain two years ago.",
-        "options": [
-            "lived",
-            "live",
-            "lives",
-            "will live"
-        ],
-        "answer": "lived",
-        "tense": "simple past"
-    },
-    {
-        "question": "I ____ going to eat dinner soon.",
-        "options": [
-            "am",
-            "is",
-            "was",
-            "will"
-        ],
-        "answer": "am",
-        "tense": "simple future"
-    },
-    {
-        "question": "She ____ her bike every day.",
-        "options": [
-            "rides",
-            "ride",
-            "rode",
-            "will ride"
-        ],
-        "answer": "rides",
-        "tense": "simple present"
-    },
-    {
-        "question": "They ____ to Canada last year.",
-        "options": [
-            "traveled",
-            "travel",
-            "travels",
-            "will travel"
-        ],
-        "answer": "traveled",
-        "tense": "simple past"
-    },
-    {
-        "question": "He ____ going to fix the car.",
-        "options": [
-            "is",
-            "was",
-            "are",
-            "be"
-        ],
-        "answer": "is",
-        "tense": "simple future"
-    },
-    {
-        "question": "We ____ in a big house.",
-        "options": [
-            "live",
-            "lives",
-            "lived",
-            "will live"
-        ],
-        "answer": "live",
-        "tense": "simple present"
-    },
-    {
-        "question": "She ____ her keys yesterday.",
-        "options": [
-            "lost",
-            "lose",
-            "loses",
-            "will lose"
-        ],
-        "answer": "lost",
-        "tense": "simple past"
-    },
-    {
-        "question": "I ____ going to meet them soon.",
-        "options": [
-            "am",
-            "is",
-            "was",
-            "were"
-        ],
-        "answer": "am",
-        "tense": "simple future"
-    },
-    {
-        "question": "He ____ fast every morning.",
-        "options": [
-            "runs",
-            "run",
-            "ran",
-            "will run"
-        ],
-        "answer": "runs",
-        "tense": "simple present"
-    },
-    {
-        "question": "We ____ dinner at a restaurant last night.",
-        "options": [
-            "ate",
-            "eat",
-            "eats",
-            "will eat"
-        ],
-        "answer": "ate",
-        "tense": "simple past"
-    },
-    {
-        "question": "She ____ going to attend the meeting.",
-        "options": [
-            "is",
-            "are",
-            "was",
-            "were"
-        ],
-        "answer": "is",
-        "tense": "simple future"
-    },
-    {
-        "question": "The sun ____ in the east.",
-        "options": [
-            "rises",
-            "rise",
-            "rose",
-            "will rise"
-        ],
-        "answer": "rises",
-        "tense": "simple present"
-    },
-    {
-        "question": "He ____ his phone at school yesterday.",
-        "options": [
-            "forgot",
-            "forget",
-            "forgets",
-            "will forget"
-        ],
-        "answer": "forgot",
-        "tense": "simple past"
-    },
-    {
-        "question": "We ____ going to read a new book.",
-        "options": [
-            "are",
-            "is",
-            "was",
-            "will"
-        ],
-        "answer": "are",
-        "tense": "simple future"
-    },
-    {
-        "question": "They ____ breakfast at 8 a.m.",
-        "options": [
-            "eat",
-            "eats",
-            "ate",
-            "will eat"
-        ],
-        "answer": "eat",
-        "tense": "simple present"
+        "answer": "Masalah dengan frekuensi kemunculan tertinggi.",
+        "referensi": "Makalah 'Ukuran Pemusatan', bagian 'Modus (Nilai yang Sering Muncul)' dan 'Aplikasi dalam TRPL'."
     }
 ]
